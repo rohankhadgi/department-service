@@ -5,4 +5,4 @@ spring:
   application:
     name: department-service
   config:
-    import: configserver:${CONFIG_SERVER_URL:http://localhost:9296},classpath:department-service.yaml
+    import: configserver:${CONFIG_SERVER_URL:http://localhost:9296}
